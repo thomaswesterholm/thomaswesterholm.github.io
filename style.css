@@ -164,10 +164,11 @@ a {
 }
 
 .project-description {
-    max-width: 760px;
-    margin: 42px 0 56px;
+    max-width: 680px;
+    margin: 30px 0 42px;
     color: #b5b5b5;
     font-size: 1rem;
+    line-height: 1.6;
 }
 
 .project-description p {
@@ -187,7 +188,7 @@ a {
 }
 
 .project-breakdown {
-    margin-top: 64px;
+    margin-top: 40px;
 }
 
 .project-breakdown h2 {
