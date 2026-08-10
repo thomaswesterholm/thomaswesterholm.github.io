@@ -130,6 +130,80 @@ a {
     font-size: 0.8rem;
 }
 
+/* ---------- Project Page ---------- */
+
+.project-page {
+    width: 100%;
+    padding: 30px 4vw 100px;
+}
+
+.project-header {
+    margin-bottom: 28px;
+}
+
+.project-header h1 {
+    margin: 0;
+    font-size: clamp(1.8rem, 3vw, 3rem);
+    font-weight: 500;
+}
+
+.project-category {
+    margin: 6px 0 0;
+    color: #888888;
+    font-size: 0.9rem;
+}
+
+.project-content {
+    width: 100%;
+}
+
+.project-hero {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.project-description {
+    max-width: 760px;
+    margin: 42px 0 56px;
+    color: #b5b5b5;
+    font-size: 1rem;
+}
+
+.project-description p {
+    margin: 0 0 16px;
+}
+
+.project-gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+}
+
+.project-gallery img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.project-breakdown {
+    margin-top: 64px;
+}
+
+.project-breakdown h2 {
+    margin: 0 0 18px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #999999;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.project-breakdown img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
 
 /* ---------- Responsive ---------- */
 
@@ -153,5 +227,13 @@ a {
     .project-grid {
         grid-template-columns: 1fr;
         gap: 40px;
+    }
+
+    .project-page {
+        padding: 20px 20px 70px;
+    }
+
+    .project-description {
+        margin: 30px 0 40px;
     }
 }
