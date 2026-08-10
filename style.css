@@ -138,7 +138,7 @@ a {
 }
 
 .project-header {
-    margin-bottom: 14px;
+    margin-bottom: 10px;
 }
 
 .project-header h1 {
@@ -165,7 +165,7 @@ a {
 
 .project-description {
     max-width: 680px;
-    margin: 30px 0 42px;
+    margin: 20px 0 28px;
     color: #b5b5b5;
     font-size: 1rem;
     line-height: 1.6;
