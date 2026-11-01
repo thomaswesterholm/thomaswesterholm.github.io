@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Katana &amp; Saya — Thomas Westerholm</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="identity">
+            <a href="index.html">
+                <h1>THOMAS WESTERHOLM</h1>
+                <p>3D / 2D Artist &amp; Game Designer</p>
+            </a>
+        </div>
+
+        <nav class="navigation">
+            <a href="index.html#work">Work</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main class="project-page">
+        <section class="project-header">
+            <h1>Katana &amp; Saya</h1>
+            <p class="project-category">3D Prop · Modeling · UV Mapping · PBR Texturing · Lighting</p>
+        </section>
+
+        <section class="project-content">
+            <img class="project-hero"
+                 src="images/katana/katana_hero.png"
+                 alt="Katana and lacquered saya displayed on a custom Japanese-inspired sword stand">
+
+            <div class="project-description">
+                <p>
+                    A historically informed reconstruction of a traditional Japanese katana and saya,
+                    inspired by the sword-making traditions of feudal Japan. Rather than designing a
+                    purely decorative fantasy weapon, I focused on traditional construction principles,
+                    carefully considered dimensions and proportions, and the relationship between the
+                    blade, handle, fittings and scabbard. The decorative motifs and color palette are
+                    my own interpretation rather than a replica of a specific historical sword.
+                </p>
+                <p>
+                    The components were modeled in Blender, including the individually constructed ito
+                    wrapping, tsuba, habaki and saya fittings. I created the UV layouts and painted
+                    the source textures in Krita, retaining organized, editable master files.
+                    The materials combine hand-authored color and surface variation with PBR controls;
+                    the blade's subtle hamon is expressed through roughness variation.
+                </p>
+            </div>
+
+            <div class="project-breakdown">
+                <h2>Blade &amp; Saya Detail</h2>
+                <img src="images/katana/katana_detail_blade.png"
+                     alt="Close-up of the blade hamon, decorated tsuba and lacquered saya" loading="lazy">
+            </div>
+
+            <div class="project-breakdown">
+                <h2>Handle &amp; Fittings Detail</h2>
+                <img src="images/katana/katana_detail_tsuka.png"
+                     alt="Close-up of the ito wrapping, menuki, tsuba and metal fittings" loading="lazy">
+            </div>
+
+            <div class="project-breakdown">
+                <h2>Geometry &amp; Wireframe</h2>
+                <img src="images/katana/katana_wireframe.png"
+                     alt="Wireframe overview and close-up of the katana, saya and display stand" loading="lazy">
+                <div class="project-description">
+                    <p>
+                        The katana and saya use approximately 47,000 triangles in the base mesh,
+                        excluding render-only bevel modifiers. Geometry is concentrated in the
+                        individually modeled ito wrapping and detailed fittings; hidden faces in
+                        the wrapping were selectively removed to reduce unnecessary geometry.
+                    </p>
+                </div>
+            </div>
+
+            <div class="project-breakdown">
+                <h2>UV Mapping &amp; Texel Density</h2>
+                <img src="images/katana/katana_uv_checker.png"
+                     alt="UV checker pattern shown across the full katana and close-up fittings" loading="lazy">
+                <div class="project-description">
+                    <p>
+                        A shared 4K UV atlas covers the katana and saya. The layout prioritizes
+                        consistent relative texel density, with extra resolution allocated to
+                        selected details and room reserved for possible additional components. The checker views illustrate
+                        mapping across both the long curved surfaces and the more complex components.
+                    </p>
+                </div>
+            </div>
+
+            <div class="project-breakdown">
+                <h2>PBR Texture Breakdown</h2>
+                <img src="images/katana/katana_pbr_breakdown.png"
+                     alt="Selected UV layout and base color, roughness, normal and metallic texture regions" loading="lazy">
+                <div class="project-description">
+                    <p>
+                        Selected regions of the atlas show how base color, roughness,
+                        normal and metallic information contribute to the final materials.
+                        Height-based surface detail was also baked to a tangent-space normal map,
+                        while the editable source textures remain available for further changes.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
